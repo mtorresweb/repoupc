@@ -1,0 +1,41 @@
+.requests_projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 100%;
+  padding: 50px;
+  align-items: center;
+}
+
+.request_repository-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dcdcdc;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.requests_projects-project {
+  min-width: 200px;
+  max-width: 800px;
+}
+
+.requests_projects-project-buttons-button:hover {
+  cursor: pointer;
+  background-color: #7dd184;
+}
+
+.requests_projects-project-buttons-button {
+  background-color: #5fd068;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 490px) {
+  .request_repository-info {
+    flex-direction: column;
+  }
+}

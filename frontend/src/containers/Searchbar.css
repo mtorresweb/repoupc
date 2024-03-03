@@ -1,0 +1,36 @@
+.searchbar_cuadro {
+  background-color: #272727;
+  height: 50px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#sidebar_avatar {
+  max-width: 40px;
+}
+
+.searchInput {
+  font-size: 20px;
+  background: none;
+  outline: none;
+  color: #fff;
+  border: none;
+}
+
+.textInput {
+  display: flex;
+}
+
+.textInput > p {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+#sidebar_avatar {
+  margin-right: 10px;
+}

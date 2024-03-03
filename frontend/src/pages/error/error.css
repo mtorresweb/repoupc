@@ -1,0 +1,15 @@
+.error {
+  margin: 200px auto;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#error_titulo {
+  font-size: 50px;
+  color: #5fd068;
+}
+#error_texto {
+  font-size: 30px;
+  color: #fff;
+}

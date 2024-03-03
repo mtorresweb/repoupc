@@ -1,0 +1,1 @@
+falta terminar el método de obtener un repositorio y request individuales, para despues seguir con el controlador del admin
